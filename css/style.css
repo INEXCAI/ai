@@ -523,6 +523,36 @@ body {
 .whatsapp-group-section h2::after { /* إلغاء خط التزيين إذا كنت تفضل مظهراً أنظف هنا */
     content: none;
 }
+.whatsapp-group-section h3 {
+    color: var(--whatsapp-color); /* عنوان بلون الواتساب */
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center; /* Adjust for RTL */
+}
+
+.whatsapp-group-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 40px auto;
+    max-width: 700px;
+    text-align: right;
+}
+
+.whatsapp-group-section ul li {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.1em;
+    color: #444;
+}
+
+.whatsapp-group-section ul li .check-icon {
+    color: var(--whatsapp-color);
+    margin-left: 10px;
+    font-size: 1.2em;
+    flex-shrink: 0;
+    margin-top: 3px;
+}
 
 .whatsapp-group-section p {
     max-width: 700px;
@@ -739,6 +769,16 @@ body {
     }
     .btn-whatsapp-large i {
         font-size: 1.2em;
+    }
+
+    .whatsapp-group-section h3 {
+        font-size: 1.5em;
+    }
+    .whatsapp-group-section ul {
+        margin-bottom: 20px;
+    }
+    .whatsapp-group-section ul li {
+        font-size: 1em;
     }
 
 
