@@ -139,6 +139,29 @@ body {
     font-size: 1.5em; /* حجم أيقونة الواتساب داخل الزر */
 }
 
+/* Buttons in Hero Section */
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+    margin-top: 50px; /* Adjust as needed */
+    flex-wrap: wrap; /* For responsiveness */
+}
+
+.btn-chatgpt {
+    background-color: var(--accent-color); /* Green, or choose another prominent color */
+}
+
+.btn-chatgpt:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-chatgpt i {
+    margin-left: 10px; /* Space between icon and text for RTL */
+}
+
 
 /* شريط التنقل (Navigation Bar) */
 .navbar {
@@ -747,6 +770,11 @@ body {
 
     .hero-content .tagline {
         font-size: 1.4em;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
     }
 
     .section {
